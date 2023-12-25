@@ -14,10 +14,12 @@ Visualization of intermediate graphics during training for better understanding.
 Usage
 Requirements
 MATLAB environment
+
 MNIST dataset files (mnist_train_1000.csv and mnist_test_100.csv) in the same folder as the MATLAB code.
 Running the Code
 matlab
 Copy code
+
 [Yn On Yt Ot] = ann2050236(2050236, 50, 0.025, 1, 10, 1, 1, 1, 1, 1);
 Adjust the input parameters as needed. The function returns exact and predicted labels for both training and testing sets.
 
